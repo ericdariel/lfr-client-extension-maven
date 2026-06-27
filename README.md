@@ -1,0 +1,1 @@
+# lfr-client-extension-maven
