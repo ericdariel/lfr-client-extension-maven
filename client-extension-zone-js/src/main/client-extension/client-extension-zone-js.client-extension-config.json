@@ -1,0 +1,17 @@
+{
+  "com.liferay.client.extension.type.configuration.CETConfiguration~my-zone-js": {
+    "baseURL": "${portalURL}/o/client-extension-zone-js",
+    "description": "",
+    "dxp.lxc.liferay.com.virtualInstanceId": "default",
+    "name": "Zone JS",
+    "projectId": "clientextensionzonejs",
+    "projectName": "client-extension-zone-js",
+    "properties": [],
+    "sourceCodeURL": "",
+    "type": "globalJS",
+    "typeSettings": [
+      "url=zone.min.js"
+    ],
+    "webContextPath": "/client-extension-zone-js"
+  }
+}

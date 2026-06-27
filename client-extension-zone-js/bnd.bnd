@@ -1,0 +1,4 @@
+Bundle-Name: zone-js-client-extension
+Bundle-SymbolicName: zone.js.client.extension
+Bundle-Version: 1.0.0
+Web-ContextPath: /zone-js-client-extension

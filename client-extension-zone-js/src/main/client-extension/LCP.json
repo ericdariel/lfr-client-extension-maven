@@ -1,0 +1,23 @@
+{
+  "cpu": 0.2,
+  "id": "client-extension-zone-js",
+  "kind": "Deployment",
+  "livenessProbe": {
+    "httpGet": {
+      "path": "/",
+      "port": 80
+    }
+  },
+  "loadBalancer": {
+    "cdn": true,
+    "targetPort": 80
+  },
+  "memory": 50,
+  "readinessProbe": {
+    "httpGet": {
+      "path": "/",
+      "port": 80
+    }
+  },
+  "scale": 1
+}
